@@ -1,0 +1,21 @@
+{
+    
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "vmArgs": "--module-path C:/JavaFxSDK/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "SesionTrece_dd5864d4"
+        }
+    ]
+}

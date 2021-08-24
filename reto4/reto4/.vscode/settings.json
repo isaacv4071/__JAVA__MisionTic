@@ -1,0 +1,24 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "e:\\Diplomado\\Ciclo2\\sqlite-jdbc\\sqlite-jdbc-3.34.0.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.base.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.controls.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.fxml.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.graphics.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.media.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.swing.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx.web.jar",
+        "e:\\Diplomado\\Ciclo2\\openjfx-11.0.2_windows-x64_bin-sdk\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar",
+        "/opt/sqlite-jdbc/sqlite-jdbc-3.34.0.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx-swt.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.web.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.swing.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.media.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.graphics.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.fxml.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.controls.jar",
+        "/opt/javafx-sdk-11.0.2/lib/javafx.base.jar"
+    ]
+}

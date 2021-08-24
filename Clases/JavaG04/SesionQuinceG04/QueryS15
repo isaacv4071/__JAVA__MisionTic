@@ -1,0 +1,38 @@
+CREATE TABLE Personas(
+P_id integer PRIMARY KEY AUTOINCREMENT,
+Nombre text(20) NOT NULL,
+Apellidos text(20),
+Direccion text(40),
+Ciudad text(30));
+
+/*Utilizamos eL DML  */
+
+INSERT INTO Personas(Nombre, Apellidos, Direccion, Ciudad)
+VALUES ("Carlos","Ortega", "Calle 56","Barranquilla");
+
+INSERT INTO Personas(Nombre, Apellidos, Direccion, Ciudad)
+VALUES ("Ana","Palomino", "Carrera 66","Monteria");
+
+INSERT INTO Personas(Nombre, Apellidos, Direccion, Ciudad)
+VALUES ("Tomás","Arrieta", "Avenida 1","Bogota");
+
+
+/*SELECT  = selecciona las columnas, campos, atributos
+FROM = la o las tablas que voy relacionar
+WHERE = condición para que me muestren los datos*/
+
+SELECT Nombre, Direccion
+FROM Personas;
+
+SELECT *
+FROM Personas
+WHERE Ciudad = "Bogota";
+
+UPDATE Personas SET Direccion = "Transv 78"
+WHERE Nombre = "Tomás";
+
+DELETE FROM Personas
+WHERE P_id = 1;
+
+SELECT *
+FROM Personas;
